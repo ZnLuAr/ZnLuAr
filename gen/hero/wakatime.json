@@ -1,74 +1,74 @@
 {
   "placeholder": false,
-  "fetched_at": "2026-11-21T11:50:07+00:00",
+  "fetched_at": "2026-11-21T12:05:42+00:00",
   "range": "last_7_days",
   "total": {
-    "seconds": 94740,
-    "text": "26 hrs 19 mins"
+    "seconds": 61238,
+    "text": "17 hrs"
   },
   "daily_average": {
-    "seconds": 13534,
-    "text": "3 hrs 45 mins"
+    "seconds": 8748,
+    "text": "2 hrs 16 mins"
   },
   "languages": [
     {
-      "name": "Markdown",
-      "percent": 50.64,
-      "text": "13 hrs 20 mins"
+      "name": "Python",
+      "percent": 41.9,
+      "text": "7 hrs 7 mins"
     },
     {
-      "name": "Python",
-      "percent": 26.95,
-      "text": "7 hrs 5 mins"
+      "name": "Markdown",
+      "percent": 31.46,
+      "text": "5 hrs 21 mins"
     },
     {
       "name": "Go",
-      "percent": 3.16,
-      "text": "49 mins"
-    },
-    {
-      "name": "HTML",
-      "percent": 2.96,
-      "text": "46 mins"
+      "percent": 5.03,
+      "text": "51 mins"
     },
     {
       "name": "JSON",
-      "percent": 2.5,
-      "text": "39 mins"
+      "percent": 3.77,
+      "text": "38 mins"
     },
     {
-      "name": "YAML",
-      "percent": 2.32,
-      "text": "36 mins"
+      "name": "HTML",
+      "percent": 3.68,
+      "text": "37 mins"
+    },
+    {
+      "name": "Bash",
+      "percent": 2.16,
+      "text": "22 mins"
     }
   ],
   "editors": [
     {
       "name": "Claude Code",
-      "percent": 70.06,
-      "text": "18 hrs 27 mins"
+      "percent": 82.97,
+      "text": "14 hrs 6 mins"
     },
     {
       "name": "VS Code",
-      "percent": 25.65,
-      "text": "6 hrs 45 mins"
+      "percent": 15.46,
+      "text": "2 hrs 37 mins"
     },
     {
-      "name": "Vim",
-      "percent": 3.46,
-      "text": "54 mins"
+      "name": "Codex Vscode",
+      "percent": 0.97,
+      "text": "9 mins"
     }
   ],
   "operating_systems": [
     {
       "name": "Windows",
-      "percent": 81.05,
-      "text": "21 hrs 20 mins"
+      "percent": 94.94,
+      "text": "16 hrs 8 mins"
     },
     {
       "name": "Linux",
-      "percent": 18.95,
-      "text": "4 hrs 59 mins"
+      "percent": 5.06,
+      "text": "51 mins"
     }
   ]
 }
