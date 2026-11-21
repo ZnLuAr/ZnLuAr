@@ -9,6 +9,7 @@
 - 文档重构：交接文档拆分为 docs/ 项目说明、使用说明、CHANGELOG 与设计决策四份。
 - 新增轻量 CI：单元测试 + 构建产物同步检查。
 - 新增 WakaTime 定时同步 workflow：每日抓取统计并重建 Hero，有变化才以 bot 身份提交。
+- 仓库代码以 MIT License 发布；第三方图标资产保留各自上游许可证（见 design/tech-icons.md）。
 - `TECH ARSENAL` 页新增副标题 `things i sorta know · stuff i tinker with`，与统计页副标题形成对称结构。
 
 ## v54（2026-11-21）

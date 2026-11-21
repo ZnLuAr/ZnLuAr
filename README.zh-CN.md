@@ -2,6 +2,7 @@
   <h1><b>- 哦，嘿！这里是 ZnLuAr。-</b></h1>
   <p><sub><em>…… 一只野生的后端出现了 ……！</em></sub></p>
   <p>仍在升级的后端 · 脑子宕机的学生 · 什么都想学的新手</p>
+  <br>
   <p><sub><a href="README.md">English</a> · 简体中文</sub></p>
 </div>
 
@@ -30,7 +31,6 @@
   </samp>
 </p>
 
-
 <br>
 <br>
 
@@ -43,9 +43,9 @@
     <img src="assets/hero/hero-light.svg" alt="斜向俯视坐标网格、超画框金属立方体、Tech Arsenal 标题，以及 Python、Go、Java、Rust、Bash、VB6、Batch、Markdown、Git、GitHub、Docker、Jenkins、Caddy、Prometheus、Grafana、LaTeX、SQLite、MySQL、PostgreSQL、Debian、Ubuntu、Vim、VS Code、FL Studio、Blender、Lightroom Classic、Photoshop、After Effects、Dreamweaver 的单色技术栈图标" width="100%">
   </picture>
 </p>
-<footer align="right">
+<div align="right">
   <sub><em>—— 部分图标来自 <a href="https://icons8.com">Icons8</a></em></sub>
-</footer>
+</div>
 
 <h2><samp>最近</samp></h2>
 
@@ -90,7 +90,10 @@
     <samp>如果想打个招呼，或一起做些事情，欢迎来找我玩！</samp>
   </sub></em>
 </div>
+<br>
 
 ---
 
-> _噢我的母亲啊这软件工程怎么这么难💦 （抽泣）_
+<p><sub>
+  <em>...噢我亲爱的母亲这软件工程怎么这么难💦（抽泣）</em>
+</sub></p>

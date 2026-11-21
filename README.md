@@ -2,6 +2,7 @@
   <h1><b>- Oh, Hey! It's ZnLuAr -</b></h1>
   <p><sub><em>... A wild backend developer appeared ...!</em></sub></p>
   <p>Backend dev still lvling up · Student always bewildered · Beginner eager to learn it all</p>
+  <br>
   <p><sub>English · <a href="README.zh-CN.md">简体中文</a></sub></p>
 </div>
 
@@ -42,9 +43,9 @@
     <img src="assets/hero/hero-light.svg" alt="An oblique aerial coordinate grid, a cropped metallic cube, a Tech Arsenal heading, and monochrome icons for Python, Go, Java, Rust, Bash, VB6, Batch, Markdown, Git, GitHub, Docker, Jenkins, Caddy, Prometheus, Grafana, LaTeX, SQLite, MySQL, PostgreSQL, Debian, Ubuntu, Vim, VS Code, FL Studio, Blender, Lightroom Classic, Photoshop, After Effects, and Dreamweaver" width="100%">
   </picture>
 </p>
-<footer align="right">
+<div align="right">
   <sub><em>—— Some icons by <a href="https://icons8.com">Icons8</a></em></sub>
-</footer>
+</div>
 
 ---
 
@@ -92,7 +93,10 @@
     <samp>If you'd like to say hi, or build something together — come play with me!</samp>
   </sub></em>
 </div>
+<br>
 
 ---
 
-> _`...Oh dear mom why is software engineering so hard (sob)`_
+<p><sub>
+  <em>...Oh dear mom why is software engineering so hard (sob)</em>
+</sub></p>
