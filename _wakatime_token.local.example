@@ -1,0 +1,15 @@
+# WakaTime OAuth token 示例文件（真实文件不进仓库）
+#
+# 使用方法：
+#   1. 复制本文件为仓库根目录的 _wakatime_token.local（已在 .gitignore 中）
+#   2. 删除全部说明行，文件内容只保留一行你的 OAuth token
+#   3. 运行 python -I scripts/fetch_wakatime.py 预览，确认后加 --apply 写入
+#
+# token 从 https://wakatime.com/oauth 获取（read_stats 权限），授权码流程签发的
+# access token 有效期 100 年，无需本地保存 refresh token 或 app 凭据。
+# 注意：编辑器插件的 waka_ 前缀 API key 是 write-only，不能读取统计。
+# 也可以不改本目录，改用环境变量 WAKATIME_OAUTH_TOKEN。
+# token 失效（如被吊销）时的重新授权步骤见 docs/usage.md。
+#
+# 真实文件格式（仅此一行，无注释、无引号、无空行）：
+把这一整行替换成你的 OAuth token

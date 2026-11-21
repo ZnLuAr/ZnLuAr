@@ -1,0 +1,44 @@
+# 定时同步 WakaTime 编码统计：抓取快照 → 重建 Hero SVG → 有变化才提交。
+# 凭据走仓库 secret WAKATIME_OAUTH_TOKEN（OAuth access token，waka_tok_ 前缀），
+# 与本地 _wakatime_token.local 共用 load_token() 的环境变量入口，凭据永不进仓库。
+# 同步提交会触发 CI 复验产物与源码一致（--check 同一管线，理应常绿）。
+name: WakaTime Sync
+
+on:
+  schedule:
+    - cron: '30 18 * * *'  # UTC 18:30 = 北京时间 02:30，前一日编码已完整收尾
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wakatime-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: 抓取 WakaTime 统计
+        env:
+          WAKATIME_OAUTH_TOKEN: ${{ secrets.WAKATIME_OAUTH_TOKEN }}
+        run: python -I scripts/fetch_wakatime.py --apply
+      - name: 重建 Hero SVG
+        run: python -I scripts/build_hero.py
+      - name: 提交并推送
+        run: |
+          if git diff --quiet -- gen/hero/wakatime.json assets/hero; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gen/hero/wakatime.json assets/hero
+          git commit -m "chore(hero): sync WakaTime stats"
+          git push

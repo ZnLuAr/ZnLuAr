@@ -1,0 +1,21 @@
+# 轻量 CI：跑全部测试 + 校验生成产物与源码同步。
+# WakaTime 抓取（需要凭据）与 Blender 校准（需要安装）不进 CI。
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: 单元测试
+        run: python -m unittest discover -s tests -v
+      - name: 构建产物同步检查
+        run: python -I scripts/build_hero.py --check

@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+gen/hero/.comparison/
+/references/
+_wakatime_token.local
+docs/archive/
+.claude/

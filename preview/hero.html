@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile Hero — SVG Preview</title>
+<style>
+  body {
+    margin: 0;
+    background: #14171b;
+    color: #c9ced3;
+    font: 14px/1.6 ui-monospace, "Cascadia Code", Consolas, monospace;
+    padding: 28px 32px 48px;
+  }
+  header { max-width: 1520px; margin: 0 auto 22px; }
+  header h1 { font-size: 15px; font-weight: 600; letter-spacing: .04em; color: #e8ebee; }
+  header p { margin: 6px 0 0; color: #8b9299; }
+  .row { display: flex; gap: 22px; max-width: 1520px; margin: 0 auto; flex-wrap: wrap; }
+  figure { margin: 0; flex: 1 1 700px; min-width: 0; padding: 18px 0 28px; }
+  figure.light { background: #ffffff; color: #57606a; }
+  figure.dark { background: #090c11; color: #8b949e; }
+  figcaption { margin: 0 0 8px 18px; color: inherit; font-size: 12px; letter-spacing: .08em; }
+  figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  footer { max-width: 1520px; margin: 4px auto 0; color: #8b9299; font-size: 12px; }
+  footer a { color: inherit; }
+</style>
+
+<header>
+  <h1>Profile Hero — 静态 / 动态 SVG 预览</h1>
+  <p>此页面只是 README 中 Hero 内容块的预览壳；图像由 scripts/build_hero.py 从持久化场景、主题和本地图标生成。系统允许动态效果时播放立方体旋转，Tech Arsenal 标题与技术栈图标始终静止；减少动态效果时使用静态图像。</p>
+</header>
+
+<div class="row">
+  <figure class="light">
+    <figcaption>light</figcaption>
+    <picture>
+      <source media="(prefers-reduced-motion: no-preference)" srcset="../assets/hero/hero-light-motion.svg">
+      <img src="../assets/hero/hero-light.svg" alt="浅色主题：斜向俯视网格、左侧超画框金属体与右侧静态技术栈图标">
+    </picture>
+  </figure>
+  <figure class="dark">
+    <figcaption>dark</figcaption>
+    <picture>
+      <source media="(prefers-reduced-motion: no-preference)" srcset="../assets/hero/hero-dark-motion.svg">
+      <img src="../assets/hero/hero-dark.svg" alt="深色主题：斜向俯视网格、左侧超画框金属体与右侧静态技术栈图标">
+    </picture>
+  </figure>
+</div>
+<footer><a href="https://icons8.com/icons/set/microsoft-visual-basic-6">VB6</a> 与 <a href="https://icons8.com/icon/33042/fl-studio">FL Studio</a> 图标由 <a href="https://icons8.com">Icons8</a> 提供；本地 SVG 为派生路径，FL Studio 果身实心，叶柄与高光仅保留轮廓。</footer>
