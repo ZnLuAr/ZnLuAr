@@ -1,74 +1,74 @@
 {
   "placeholder": false,
-  "fetched_at": "2026-11-21T23:31:53+00:00",
+  "fetched_at": "2026-11-22T23:44:18+00:00",
   "range": "last_7_days",
   "total": {
-    "seconds": 89052,
-    "text": "24 hrs 44 mins"
+    "seconds": 96406,
+    "text": "26 hrs 46 mins"
   },
   "daily_average": {
-    "seconds": 12722,
-    "text": "3 hrs 18 mins"
+    "seconds": 13772,
+    "text": "3 hrs 30 mins"
   },
   "languages": [
     {
       "name": "Markdown",
-      "percent": 43.65,
-      "text": "10 hrs 47 mins"
+      "percent": 41.8,
+      "text": "11 hrs 11 mins"
     },
     {
       "name": "Python",
-      "percent": 30.92,
-      "text": "7 hrs 38 mins"
+      "percent": 31.17,
+      "text": "8 hrs 20 mins"
     },
     {
       "name": "JSON",
-      "percent": 4.5,
-      "text": "1 hr 6 mins"
+      "percent": 4.51,
+      "text": "1 hr 12 mins"
     },
     {
       "name": "Go",
-      "percent": 3.37,
+      "percent": 3.11,
       "text": "49 mins"
     },
     {
       "name": "HTML",
-      "percent": 3.15,
+      "percent": 2.91,
       "text": "46 mins"
     },
     {
       "name": "YAML",
-      "percent": 1.71,
-      "text": "25 mins"
+      "percent": 2.34,
+      "text": "37 mins"
     }
   ],
   "editors": [
     {
       "name": "Claude Code",
-      "percent": 64.14,
-      "text": "15 hrs 51 mins"
+      "percent": 63.66,
+      "text": "17 hrs 2 mins"
     },
     {
       "name": "VS Code",
-      "percent": 30.85,
-      "text": "7 hrs 37 mins"
+      "percent": 30.32,
+      "text": "8 hrs 7 mins"
     },
     {
       "name": "Vim",
-      "percent": 4.13,
-      "text": "1 hr 1 min"
+      "percent": 5.21,
+      "text": "1 hr 23 mins"
     }
   ],
   "operating_systems": [
     {
       "name": "Windows",
-      "percent": 92.14,
-      "text": "22 hrs 47 mins"
+      "percent": 87.91,
+      "text": "23 hrs 32 mins"
     },
     {
       "name": "Linux",
-      "percent": 7.86,
-      "text": "1 hr 56 mins"
+      "percent": 12.09,
+      "text": "3 hrs 14 mins"
     }
   ]
 }
