@@ -1,74 +1,74 @@
 {
   "placeholder": false,
-  "fetched_at": "2026-11-25T02:43:02+00:00",
+  "fetched_at": "2026-11-26T01:53:39+00:00",
   "range": "last_7_days",
   "total": {
-    "seconds": 142511,
-    "text": "39 hrs 35 mins"
+    "seconds": 158259,
+    "text": "43 hrs 57 mins"
   },
   "daily_average": {
-    "seconds": 20359,
-    "text": "5 hrs 9 mins"
+    "seconds": 22608,
+    "text": "5 hrs 38 mins"
   },
   "languages": [
     {
       "name": "Markdown",
-      "percent": 35.28,
-      "text": "13 hrs 58 mins"
+      "percent": 31.23,
+      "text": "13 hrs 43 mins"
     },
     {
       "name": "Python",
-      "percent": 28.19,
-      "text": "11 hrs 9 mins"
+      "percent": 25.28,
+      "text": "11 hrs 6 mins"
     },
     {
       "name": "Bash",
-      "percent": 10.42,
-      "text": "4 hrs 7 mins"
+      "percent": 16.19,
+      "text": "7 hrs 7 mins"
     },
     {
       "name": "JSON",
-      "percent": 2.97,
+      "percent": 2.67,
       "text": "1 hr 10 mins"
     },
     {
       "name": "YAML",
-      "percent": 2.82,
-      "text": "1 hr 6 mins"
+      "percent": 2.6,
+      "text": "1 hr 8 mins"
     },
     {
       "name": "TOML",
-      "percent": 2.64,
-      "text": "1 hr 2 mins"
+      "percent": 2.42,
+      "text": "1 hr 3 mins"
     }
   ],
   "editors": [
     {
       "name": "Claude Code",
-      "percent": 55.98,
-      "text": "22 hrs 9 mins"
-    },
-    {
-      "name": "VS Code",
-      "percent": 25.22,
-      "text": "9 hrs 59 mins"
+      "percent": 52.03,
+      "text": "22 hrs 52 mins"
     },
     {
       "name": "Vim",
-      "percent": 18.67,
-      "text": "7 hrs 23 mins"
+      "percent": 25.14,
+      "text": "11 hrs 3 mins"
+    },
+    {
+      "name": "VS Code",
+      "percent": 22.71,
+      "text": "9 hrs 59 mins"
     }
   ],
   "operating_systems": [
     {
       "name": "Windows",
-      "percent": 63.43,
-      "text": "25 hrs 6 mins"
+      "percent": 56.47,
+      "text": "24 hrs 49 mins"
     },
     {
       "name": "Linux",
-      "percent": 36.57,
-      "text": "14 hrs 28 mins"
+      "percent": 43.53,
+      "text": "19 hrs 8 mins"
     }
   ]
 }
